@@ -1,0 +1,109 @@
+{
+  "briefs": [
+    {
+      "id": "vibe_specific",
+      "brief": "A mind-bending sci-fi thriller like Inception",
+      "criteria": {
+        "vibe": "cerebral, reality-questioning, layered narrative",
+        "preferred_genres": ["Sci-Fi & Fantasy", "Thrillers", "TV Sci-Fi & Fantasy"],
+        "reference_anchors": ["Inception"]
+      }
+    },
+    {
+      "id": "era_filter",
+      "brief": "90s action movies with car chases",
+      "criteria": {
+        "vibe": "explosive, kinetic, practical stunts",
+        "preferred_genres": ["Action & Adventure"],
+        "preferred_type": "Movie",
+        "era_range": [1990, 1999]
+      }
+    },
+    {
+      "id": "type_language",
+      "brief": "A Korean romantic comedy series",
+      "criteria": {
+        "vibe": "feel-good, charming, earnest",
+        "preferred_genres": ["Korean TV Shows", "Romantic TV Shows"],
+        "preferred_type": "TV Show"
+      }
+    },
+    {
+      "id": "mood_vague",
+      "brief": "Something cozy for a rainy Sunday afternoon",
+      "criteria": {
+        "vibe": "warm, comforting, easy to watch, low-stakes",
+        "preferred_genres": []
+      }
+    },
+    {
+      "id": "exclusion",
+      "brief": "Thriller TV show, nothing supernatural or horror",
+      "criteria": {
+        "vibe": "grounded psychological or crime tension",
+        "preferred_genres": ["TV Thrillers", "Crime TV Shows"],
+        "preferred_type": "TV Show",
+        "exclude_vibes": ["horror", "supernatural", "paranormal", "monsters"]
+      }
+    },
+    {
+      "id": "reference_title",
+      "brief": "Dark psychological thriller like Mindhunter",
+      "criteria": {
+        "vibe": "slow-burn, procedural, psychologically heavy",
+        "preferred_genres": ["TV Thrillers", "Crime TV Shows", "Thrillers"],
+        "reference_anchors": ["Mindhunter"]
+      }
+    },
+    {
+      "id": "family_friendly",
+      "brief": "An animated movie I can watch with my 7-year-old",
+      "criteria": {
+        "vibe": "age-appropriate, lighthearted, no violence or adult themes",
+        "preferred_genres": ["Children & Family Movies"],
+        "preferred_type": "Movie"
+      }
+    },
+    {
+      "id": "documentary_topic",
+      "brief": "A documentary about food and cooking",
+      "criteria": {
+        "vibe": "informative, food-centered",
+        "preferred_genres": ["Documentaries", "Docuseries"]
+      }
+    },
+    {
+      "id": "genre_blend",
+      "brief": "Dark comedy series with biting humor",
+      "criteria": {
+        "vibe": "cynical humor, morally grey, adult tone",
+        "preferred_genres": ["TV Comedies"],
+        "preferred_type": "TV Show"
+      }
+    },
+    {
+      "id": "director_style",
+      "brief": "A slow-burn period piece with gorgeous cinematography",
+      "criteria": {
+        "vibe": "contemplative, visually striking, historical setting",
+        "preferred_genres": ["Dramas", "Independent Movies", "TV Dramas"]
+      }
+    },
+    {
+      "id": "specific_title",
+      "brief": "Breaking Bad",
+      "criteria": {
+        "vibe": "exact-title retrieval",
+        "expected_top_title": "Breaking Bad"
+      }
+    },
+    {
+      "id": "teen_theme",
+      "brief": "A coming-of-age story set in high school",
+      "criteria": {
+        "vibe": "growing up, identity, friendships",
+        "preferred_genres": ["Dramas", "Teen TV Shows", "Comedies"]
+      }
+    }
+  ]
+}

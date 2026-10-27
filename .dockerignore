@@ -1,0 +1,15 @@
+.venv/
+.env
+pgdata/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.git/
+.gitignore
+.vscode/
+.DS_Store
+eval/results/
+*.log
+tests/
+docker-compose.yml
